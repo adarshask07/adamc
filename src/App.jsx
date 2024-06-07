@@ -11,7 +11,7 @@ function App() {
     <>
       {!(pathname == '/sign-in' || pathname == '/sign-up') && (
         <div className="container absolute left-2/4 z-10 mx-auto -translate-x-2/4 p-4">
-          <Navbar routes={routes} />
+          <Navbar className="mb-4" routes={routes} />
         </div>
       )
       }
