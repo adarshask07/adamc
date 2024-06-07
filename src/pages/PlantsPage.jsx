@@ -29,7 +29,7 @@ export function PlantsPage() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }
