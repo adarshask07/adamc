@@ -196,7 +196,7 @@ export function Home() {
         </div>
       </section>
       <div className="bg-white">
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

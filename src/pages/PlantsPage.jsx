@@ -4,6 +4,7 @@ import { plantsData } from "@/data/plantsData";
 import { PageTitle, Footer } from "@/widgets/layout";
 import PlantCard from "@/components/PlantCard";
 import { Typography } from "@material-tailwind/react";
+import SearchBar from "@/components/SearchBar";
 
 export function PlantsPage() {
   const navigate = useNavigate();
@@ -21,6 +22,7 @@ export function PlantsPage() {
             <Typography className="text-brown-900 font-semibold">
               Explore the diverse range of plants in our garden, each with its unique medicinal properties and uses.
             </Typography>
+            <SearchBar className="z-100"/>
           </PageTitle>
           <div className="grid grid-cols-1 gap-6 mt-5 md:grid-cols-2 lg:grid-cols-3">
             {plantsData.map((plant) => (
@@ -29,7 +31,7 @@ export function PlantsPage() {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
