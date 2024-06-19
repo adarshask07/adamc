@@ -10,7 +10,8 @@ export function PlantsPage() {
   const navigate = useNavigate();
 
   const handleCardClick = (plant) => {
-    const plantName = plant.name.toLowerCase().replace(/ /g, "-");
+    const plantName = plant.na
+    me.toLowerCase().replace(/ /g, "-");
     navigate(`/plants/${plantName}`);
   };
 
@@ -31,7 +32,11 @@ export function PlantsPage() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       {/* <Footer /> */}
+=======
+      
+>>>>>>> 8c23553d060cbce56c8260e21e3d2480e658999a
     </>
   );
 }
