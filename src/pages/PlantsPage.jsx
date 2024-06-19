@@ -32,11 +32,7 @@ export function PlantsPage() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      {/* <Footer /> */}
-=======
-      
->>>>>>> 8c23553d060cbce56c8260e21e3d2480e658999a
+
     </>
   );
 }
